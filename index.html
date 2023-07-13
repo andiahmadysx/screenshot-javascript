@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screenshot with Javascript</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="container">
+      <!--  -->
+      <div class="wrapper">
+        <!--  -->
+        <div class="card" id="card-demo">
+          <!--  -->
+          <div class="card-title">
+            <h2>World War III</h2>
+          </div>
+          <!--  -->
+          <div class="card-desc">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+              nihil in odit ipsum laudantium maiores deserunt dolores cupiditate
+              esse quae!
+            </p>
+          </div>
+          <!--  -->
+          <div class="card-img">
+            <img src="./images/demo.jpg" alt="" />
+          </div>
+        </div>
+        <!--  -->
+        <div class="preview-card hide"></div>
+      </div>
+
+      <!--  -->
+      <div class="btn-wrapper">
+        <button id="capture-btn">Capture Screenshot</button>
+        <button id="download-btn" class="hide">Download Screenshot</button>
+      </div>
+    </div>
+
+    <!-- html2canvas libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- javascript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
